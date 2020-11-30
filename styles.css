@@ -1,0 +1,56 @@
+body{
+    border: 0px;
+    background-color: black;
+    font-family: 'Texturina', serif;
+}
+
+/* Main section */
+
+main{
+    width: 50%;
+    margin: auto;
+    text-align: center;
+}
+
+main h1{
+    color:  rgb(228, 43, 43);
+}
+
+@media (max-width:650px){
+    main{
+        width: 100%;
+    }
+}
+
+.input-textarea{
+    width: 80%;
+    margin: auto;
+    resize: none;
+    height: 10rem;
+    padding: 10px;
+    font-size: 1.5rem;
+    border-radius: 15px;
+    outline: none;
+    border: 5px solid rgb(228, 43, 43);
+    display: block;
+}
+
+.translate-button{
+    outline: none;
+    padding: 20px;
+    background-color:  rgb(228, 43, 43);
+    border: none;
+    font-size: 1.5rem;
+    color: white;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.output-textarea{
+    background-color: white;
+}
+
+header p{
+    font-size: 1.5rem;
+    color: white;
+}
